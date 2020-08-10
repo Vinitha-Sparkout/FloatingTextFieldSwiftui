@@ -25,12 +25,9 @@ struct ContentView: View {
                           
                 LoadingView(isShowing: .constant(true))
                 {
-//                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-//
-//
+
 
                     NavigationLink("Test", destination: HomeView())
-//                        }
                 }
                 
                        }) {
